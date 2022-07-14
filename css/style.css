@@ -148,6 +148,7 @@ footer
     background: #404b69;
     color: white;
     position: relative;
+    text-align: center;
 }
 footer::before{
     content: '';
@@ -157,17 +158,10 @@ footer::before{
     top: 0;
 }
 
+
+
 footer 
 {
     padding: 30px;
 }
 
-@media (max-width:640px)
-{
-    .card
-    {
-        display: block;
-        border:0;
-        
-    }
-}
