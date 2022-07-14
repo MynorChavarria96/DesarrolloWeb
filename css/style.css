@@ -161,3 +161,13 @@ footer
 {
     padding: 30px;
 }
+
+@media (max-width:640px)
+{
+    .card
+    {
+        display: block;
+        border:0;
+        
+    }
+}
